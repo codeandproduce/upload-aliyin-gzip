@@ -1,0 +1,32 @@
+{
+  "name": "upload-aliyun-gzip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "usingUpload.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "serve": "node ./dist/usingUpload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeandproduce/upload-aliyin-gzip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeandproduce/upload-aliyin-gzip/issues"
+  },
+  "homepage": "https://github.com/codeandproduce/upload-aliyin-gzip#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "aliyun-oss-upload-stream": "^1.3.0",
+    "aliyun-sdk": "^1.11.2",
+    "fs": "0.0.1-security"
+  }
+}
